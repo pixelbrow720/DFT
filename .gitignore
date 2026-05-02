@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+
+# DuckDB — jangan commit, file besar
+*.duckdb
+*.duckdb.wal
+
+# Data — jangan commit, terlalu besar
+parquet/
+data/
+RAW-DATA/
+
+# Node / Electron
+dekstop/node_modules/
+dekstop/dist/
+dekstop/dist-electron/
+dekstop/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+npm-debug.log*
