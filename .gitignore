@@ -16,6 +16,9 @@ build/
 parquet/
 data/
 RAW-DATA/
+# Allow the small shared CSVs we ship with the app (macro calendar, etc.)
+!dft-lite/data/
+!dft-lite/data/**
 
 # Node / Electron
 dekstop/node_modules/
